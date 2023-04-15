@@ -1,7 +1,4 @@
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String
 import pandas as pd
 from utils.tables import User
 from utils.connection import connect_db
